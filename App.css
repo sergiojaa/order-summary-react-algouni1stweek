@@ -1,0 +1,116 @@
+.Background-image{
+    width: 450px;
+  height: 220px;
+    display: block;
+}
+.mainDiv{
+    width: 450px;
+    height: 697px;
+    margin: auto;
+    background-color: white;
+}
+.image-container {
+    position: relative;
+    width: fit-content; /* or specify a width */
+    margin: auto;
+}
+.front-image {
+    position: absolute;
+    top: 0; /* Adjust the top position as needed */
+    left: 0; /* Adjust the left position as needed */
+    width: 450px;
+    height: 220px;
+}
+.maintext{
+    width: 354px;
+    height: 78px;
+    margin: 17px 48px 20px;
+    font-family: RedHatDisplay;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: center;
+    color: #717fa6;
+}
+h1{
+    width: 354px;
+    height: 37px;
+    margin: 45px 48px 17px;
+    font-family: RedHatDisplay;
+    font-size: 28px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1f2e55;
+}
+.musicsection{
+    display: flex;
+    margin-top: 45px;
+}
+.musicicon img{
+    width: 48px;
+  height: 48px;
+  flex-grow: 0;
+  margin: 0px 18px 0 72px;
+  padding: 15px 15.1px 15px 15px;
+  background-color: #dfe6fb;
+  border-radius: 20px;
+}
+.payment p{
+    width: 92px;
+    height: 21px;
+    margin: 6px 0 0;
+    font-family: RedHatDisplay;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #717fa6;
+  
+}
+.payment{
+    padding-left: 20px;
+}
+.change{
+    /* padding-left: 90px;
+    padding-top: 12 px; */
+    margin-left: 80px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.paymentbutton button{
+    width: 354px;
+    height: 50px;
+    font-size: 15px;
+    margin: 32px 48px;
+    padding: 15px 102px;
+    border-radius: 11px;
+    box-shadow: 0 20px 20px 0 rgba(56, 42, 225, 0.19);
+    background-color: #382ae1;
+    color: white;
+    cursor: pointer;
+    border-style: none;
+}
+.cancel p{
+    width: 96px;
+    height: 20px;
+    margin: 12px 178px 0 176px;
+    font-family: RedHatDisplay;
+    font-size: 15px;
+    font-weight: 900;
+    color: #717fa6;
+    cursor: pointer;
+}
+.container{
+    background-color: #d6e1ff;
+    
+}
